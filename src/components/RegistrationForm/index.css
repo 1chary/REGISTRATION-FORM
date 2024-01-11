@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+
+.appContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 42px;
+  color: #ea580c;
+}
+
+.formContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .formContainer {
+    justify-content: none;
+    box-shadow: none;
+    width: 80%;
+  }
+}
+
+.nameContainers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.first {
+  color: #475569;
+  font-size: 24px;
+}
+
+.inputBox {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #ea580c;
+  height: 30px;
+  width: 80px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    width: 60%;
+  }
+}
